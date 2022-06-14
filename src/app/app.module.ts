@@ -8,13 +8,23 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ApplicationComponent } from './application/application.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { SearchJobsComponent } from './search-jobs/search-jobs.component';
+import { ProfileComponent } from './profile/profile.component';
+import { CompaniesComponent } from './companies/companies.component';
+import { StatisticsComponent } from './statistics/statistics.component';
+import { TasksComponent } from './tasks/tasks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     ApplicationComponent,
-    SidebarComponent  
+    SidebarComponent,
+    SearchJobsComponent,
+    ProfileComponent,
+    CompaniesComponent,
+    StatisticsComponent,
+    TasksComponent  
   ],
   imports: [
     BrowserModule,
